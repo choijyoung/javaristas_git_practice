@@ -90,15 +90,15 @@ const App = () => {
     },
   ])
 
-  const [davidsThings, setDavidsThings] = useState([
+  const [mandysThings, setMandysThings] = useState([
     {
-      name: 'waffle',
+      name: 'cats',
       image:
         'https://images.unsplash.com/photo-1568051243851-f9b136146e97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80',
       attributes: ['tasty', 'fluffy', 'breakfast', 'yummy'],
     },
     {
-      name: 'giraffe',
+      name: 'pancakes',
       image:
         'https://images.unsplash.com/photo-1538127426967-75a6c73f6d20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
       attributes: [
@@ -106,16 +106,16 @@ const App = () => {
         'cool',
         'fun',
         'animal',
-        "(David doesn't acually own a giraffe)",
+        "(Mandy doesn't acually own a giraffe)",
       ],
     },
     {
-      name: 'Liam',
+      name: 'Taffy',
       image: 'https://i.imgur.com/l2qX34X.jpg',
       attributes: ['fluffy', 'happy', 'sleepy', 'dumb'],
     },
     {
-      name: 'Poptart®',
+      name: 'Pancakes®',
       image: 'https://i.imgur.com/q9zgcaP.jpg',
       attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
     },
@@ -143,7 +143,7 @@ const App = () => {
       />
       <Route
         path="/the-well-styled-things"
-        element={<StyledThings things={davidsThings} />}
+        element={<StyledThings things={mandysThings} />}
       />
       <Route
         path="/the-silly-things"
