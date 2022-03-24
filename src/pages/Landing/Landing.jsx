@@ -7,10 +7,7 @@ const Landing = () => {
       <h1>All-The-Things</h1>
       <Link to="/the-manliest-things">Ben's Things</Link><br/>
       <Link to="/the-functional-things">Shahzad's Things</Link><br/>
-      <Link to="/the-well-styled-things">David's Things</Link><br/>
-    
-      <Link to="/the-silly-things">Mandy's Things</Link><br/>
-
+      <Link to="/the-well-styled-things">Mandy's Things</Link><br/>
       <Link to="/the-silly-things">Jaeyoung's Things</Link><br/>
     </>
   )
